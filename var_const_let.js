@@ -10,6 +10,8 @@ console.log(accountId);
 
 console.table([accountId, accountName, accountBalance])
 
+console.log(accountName);
+
 /* 
 1. var
 
@@ -27,5 +29,7 @@ It is hoisted but not initialized, so it cannot be accessed before its declarati
 const is also block scoped.
 It cannot be re-assigned or re-declared.
 It must be initialized at the time of declaration.
-Like let, it is hoisted but not initialized, so it cannot be accessed before its declaration.
+Like let, it is hoisted but not initialized, so it cannot be accessed before its declaration. 
+
+In summary, use const for variables that should not change, let for variables that can change, and avoid using var to prevent potential bugs.
 */
